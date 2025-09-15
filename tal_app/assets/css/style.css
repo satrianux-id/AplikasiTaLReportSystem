@@ -1,0 +1,46 @@
+/* Tambahkan style untuk gambar dan tabel history */
+.task-image img {
+    border: 1px solid #ddd;
+    padding: 4px;
+    background: white;
+}
+
+.history-table {
+    font-size: 0.9rem;
+}
+
+.history-table th {
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 0;
+}
+
+/* Style untuk status history */
+.old-value, .new-value {
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.status-pending {
+    background-color: #fef3c7;
+    color: #f59e0b;
+}
+
+.status-in_progress {
+    background-color: #dbeafe;
+    color: #3b82f6;
+}
+
+.status-completed {
+    background-color: #dcfce7;
+    color: #22c55e;
+}
